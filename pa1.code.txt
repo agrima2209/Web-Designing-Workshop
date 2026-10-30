@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Time Table</title>
+</head>
+<body>
+
+    <h2><center>Student Information</center></h2>
+    <h2><center>Academic year 2026-2027</center></h2>
+    <table border="2" 
+           cellspacing="0"
+           cellpadding="10">
+        <tr>
+            <th rowspan="2">S.no</th>
+            <th rowspan="2">Student Name</th>
+            <th rowspan="2">Roll No.</th>
+            <th rowspan="2">Course</th>
+            <th colspan="2">Marks</th>
+        </tr> 
+        <tr>
+            <th>Theory</th>
+            <th>Practical</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Agrima Chaurasia</td>
+            <td>101</td>
+            <td rowspan="3">B.Tech CSE</td>
+            <td>30</td>
+            <td>60</td>
+        </tr>
+         <tr>
+            <td>2</td>
+            <td>Ambika Rastogi</td>
+            <td>102</td>
+            <td>20</td>
+            <td>50</td>
+        </tr> 
+         <tr>
+            <td>3</td>
+            <td>Akshika</td>
+            <td>103</td>
+            <td>10</td>
+            <td>40</td>
+        </tr> 
+         <tr>
+            <td>4</td>
+            <td>Neha Verma</td>
+            <td>104</td>
+            <td>MCA</td>
+            <td>70</td>
+            <td>65</td>
+        </tr>
+         <tr>
+            <td>5</td>
+            <td>Rohit Kumar</td>
+            <td>105</td>
+            <td>BBA</td>
+            <td>80</td>
+            <td>75</td>
+        </tr> 
+         <tr>
+            <td>6</td>
+            <td>Sneha Gupta</td>
+            <td>106</td>
+            <td>BCA</td>
+            <td>90</td>
+            <td>85</td>
+        </tr>  
+        <tr>
+            <td colspan="4" rowspan="3"><center>Total Students</center></td>
+            <td colspan="2" rowspan="3"><center>6</center></td>
+        </tr>
+        </center>
+    </table>
+    <hr>
+    <footer>
+   <p>Name:Agrima Chaurasia
+    <br>Branch:B.Tech CSE
+    <br>Sec:2
+    <br>Adms. no.:2026B01010508
+   </p>
+  </footer>  
+</body>
+</html>
